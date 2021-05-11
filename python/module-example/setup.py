@@ -7,7 +7,7 @@ with open("README.md", "r") as f:
     # you may delete this if you want to manually write it
     
 with open("requirments.txt", "r") as f:
- long_description = fh.read()  # Put any requirments (If there is any)
+ long_description = f.read()  # Put any requirments (If there is any)
 
     
 setup(
