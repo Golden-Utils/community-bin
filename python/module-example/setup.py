@@ -7,7 +7,7 @@ with open("README.md", "r") as f:
     # you may delete this if you want to manually write it
     
 with open("requirments.txt", "r") as f:
- long_description = f.read()  # Put any requirments (If there is any)
+  req = f.read()  # Put any requirments (If there is any)
 
     
 setup(
@@ -21,5 +21,5 @@ setup(
     url="https://github.com/somone/a_repostory",  # link to your github
     author='Me',  # the author of the module, can be more than one
     license='MIT',  # module lisence
-    install_requires=[],  # required packages (if there is one) Or you can un comment the code under the part where we opened the README file
+    install_requires=req
 )
