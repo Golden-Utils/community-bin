@@ -20,3 +20,5 @@ async def on_ready():
 @bot.command()
 async def ping(ctx):
   await ctx.send(bot.latency)
+if __name__ == "__main__": # Checks if the file is being imported
+    bot.run("") # Put your bot's TOKEN HERE
