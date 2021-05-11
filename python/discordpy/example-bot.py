@@ -3,9 +3,7 @@ import discord
 from discord.ext import commands
 import random
 
-description = '''An example bot to showcase the discord.ext.commands extension
-module.
-There are a number of utility commands being showcased here.'''
+description = "A basic bot!"
 
 intents = discord.Intents.default() # Replace default with all if you want to enable all intents
 intents.members = True # remove this line if you made it all
