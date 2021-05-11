@@ -7,8 +7,8 @@ description = '''An example bot to showcase the discord.ext.commands extension
 module.
 There are a number of utility commands being showcased here.'''
 
-intents = discord.Intents.default()
-intents.members = True
+intents = discord.Intents.default() # Replace default with all if you want to enable all intents
+intents.members = True # remove this line if you made it all
 
 bot = commands.Bot(command_prefix='?', description=description, intents=intents)
 
