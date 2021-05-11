@@ -1,0 +1,11 @@
+name: Node Code Quality
+on: [push, pull_request]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2.1.5
+      - run: |
+          npx prettier --check javascript
